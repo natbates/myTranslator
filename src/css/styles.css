@@ -1,0 +1,87 @@
+/* Add styles for the root container */
+.root {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Style for the language selection label */
+.to-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 13px; /* Adjust the font size as needed 13 */
+    -fx-translate-y: 5px;
+}
+
+/* Style for the translate button */
+.button-translate {
+    -fx-background-color: #4caf50; /* Green */
+    -fx-text-fill: white;
+}
+
+.button-translate:hover {
+    -fx-background-color: #388e3c; /* Darker green on hover */
+}
+
+.button-translate:pressed {
+    -fx-background-color: #2e7d32; /* Even darker green when pressed */
+}
+
+/* Style for the translate file button */
+.button-translate-file {
+    -fx-background-color: #6f6f6f; /* Gray */
+    -fx-text-fill: white;
+}
+
+.button-translate-file:hover {
+    -fx-background-color: #5a5a5a; /* Darker gray on hover */
+}
+
+.button-translate-file:pressed {
+    -fx-background-color: #424242; /* Even darker gray when pressed */
+}
+
+/* Style for the swap button */
+.button-swap {
+    -fx-background-color: #2196f3; /* Blue */
+    -fx-text-fill: white;
+}
+
+.button-swap:hover {
+    -fx-background-color: #1976d2; /* Darker blue on hover */
+}
+
+.button-swap:pressed {
+    -fx-background-color: #1565c0; /* Even darker blue when pressed */
+}
+
+/* Style for the clear button */
+.button-clear {
+    -fx-background-color: #f44336; /* Red */
+    -fx-text-fill: white;
+}
+
+.button-clear:hover {
+    -fx-background-color: #d32f2f; /* Darker red on hover */
+}
+
+.button-clear:pressed {
+    -fx-background-color: #b71c1c; /* Even darker red when pressed */
+}
+/* Style for text areas */
+.text-area {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Style for combo boxes */
+.combo-box {
+    -fx-font-size: 14px;
+}
+
+/* Style for labels */
+.label {
+    -fx-font-weight: bold;
+}
+
+/* Style for scene */
+.scene {
+    -fx-base: #b4b4b4; /* Light gray */
+}
